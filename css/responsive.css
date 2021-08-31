@@ -1,0 +1,347 @@
+/* for extra small divice */
+@media (max-width: 575px) {
+    .navbar .navbar-brand img {
+        padding-bottom: 0px !important;
+        width: 80% !important;
+    }
+    .navbar-light .navbar-toggler {
+        border-color: #ff5f83;
+        outline: none;
+    }
+
+    .navbar-light .navbar-toggler span {
+        color: #ff5f83;
+    }
+
+    .navbar ul {
+        background: #000;
+        padding-bottom: 15px!important;
+    }
+    #banner .banner-slider .banner-item .banner-head h3{
+        font-size: 40px!important;
+    }
+    #banner .banner-slider .banner-item{
+        padding: 100px 0 !important;
+    }
+    #banner .slick-dots{
+        left: 32%!important;
+        bottom: -13px!important;
+    }
+    #banner .banner-slider .banner-item .banner-btn a,
+    #about .about-btn a,
+    #gallery .gallery-btn a,
+    #blog .blog-slider .slider-item .blog-text .blog-btn a{
+        font-size: 13px!important;
+    }
+    #about{
+        padding-top: 30px!important;
+        padding-bottom: 50px!important;
+    }
+    #about .about-btn {
+        margin-top: 35px!important;
+    }
+
+    #about .about-text p:last-of-type,
+    #about .about-right,
+    .navbar-expand-lg .navbar-nav .nav-link::after{
+        display: none!important;
+    }
+
+    #gallery .gallery-header h3,
+    #dj .dj-header h3,
+    #event .event-header h3,
+    #blog .blog-header h3,
+    #plan .plan-header h3,
+    #about .about-header h3{
+        font-size: 16px!important;
+    }
+    #gallery .gallery-item .img-over .overley .icon-1 {
+        margin-left: 36%!important;
+        margin-top: 25%!important;
+    }
+    #gallery .gallery-item .img-over{
+        margin-top: 15px!important;
+    }
+    #gallery .gallery-item .img-over img{
+        width: 100%!important;
+    }
+    #gallery .gallery-btn{
+        padding-top: 10px!important;
+    }
+    #dj{
+        padding-top: 30px!important;
+    }
+    #dj .dj-slider .slider-item{
+        margin-right: 0px!important;
+        margin-left: 45px!important;
+    }
+    #blog {
+        background: #111111;
+        padding-top: 30px!important;
+        padding-bottom: 50px!important;
+    }
+    #testimonial .testimonial-bg .testimnial-slider .slider-item .testimnial-img img{
+        width: 30% !important;
+        margin: 0 auto 40px auto !important;
+    }
+    #testimonial .testimonial-bg .testimnial-slider .slider-item .testimnial-text::after{
+        top: -16px!important;
+        left: 41%!important;
+    }
+    #testimonial .testimonial-bg{
+        padding-top: 0px!important;
+        padding-bottom: 50px!important;
+    }
+    #plan .plan-header img{
+        padding-bottom: 30px!important;
+    }
+    #plan .plan-content .plan-item{
+        margin-bottom: 30px;
+    }
+
+    #plan .plan-content .plan-item:hover {
+        margin-top: 0 !important;
+    }
+    #footer .footer-text{
+        margin-top: 30px !important;
+    }
+    #footer .footer-text p{
+        font-size: 12px!important;
+    }
+}
+
+/* for small divice */
+@media (min-width:576px) and (max-width:767px) {
+    .navbar .navbar-brand img {
+        padding-bottom: 0px !important;
+        width: 90% !important;
+    }
+    .navbar-light .navbar-toggler {
+        border-color: #ff5f83;
+        outline: none;
+    }
+
+    .navbar-light .navbar-toggler span {
+        color: #ff5f83;
+    }
+
+    .navbar ul {
+        background: #000;
+        padding-bottom: 15px!important;
+    }
+    #banner .banner-slider .banner-item .banner-head h3{
+        font-size: 40px!important;
+    }
+    #banner .banner-slider .banner-item{
+        padding: 140px 0 !important;
+    }
+    #banner .slick-dots{
+        left: 39%!important;
+        bottom: 10px!important;
+    }
+    #banner .banner-slider .banner-item .banner-btn a,
+    #about .about-btn a,
+    #gallery .gallery-btn a,
+    #blog .blog-slider .slider-item .blog-text .blog-btn a{
+        font-size: 13px!important;
+    }
+    #about{
+        padding-top: 30px!important;
+        padding-bottom: 50px!important;
+    }
+    #about .about-btn {
+        margin-top: 35px!important;
+    }
+
+    #about .about-text p:last-of-type,
+    .navbar-expand-lg .navbar-nav .nav-link::after{
+        display: none!important;
+    }
+
+    #gallery .gallery-header h3,
+    #dj .dj-header h3,
+    #event .event-header h3,
+    #blog .blog-header h3,
+    #plan .plan-header h3,
+    #about .about-header h3{
+        font-size: 16px!important;
+    }
+    #gallery .gallery-item .img-over .overley .icon-1 {
+        margin-left: 36%!important;
+        margin-top: 25%!important;
+    }
+    #gallery .gallery-item .img-over{
+        margin-top: 15px!important;
+    }
+    #gallery .gallery-item .img-over img{
+        width: 100%!important;
+    }
+    #gallery .gallery-btn{
+        padding-top: 10px!important;
+    }
+    #dj{
+        padding-top: 30px!important;
+    }
+    #dj .slick-center .slider-item {
+        transform: scaleY(1) !important;
+    }
+    #dj .dj-slider .slider-item{
+        margin-right: 0px!important;
+        margin-left: 25px!important;
+    }
+    #blog {
+        background: #111111;
+        padding-top: 30px!important;
+        padding-bottom: 50px!important;
+    }
+    #testimonial .testimonial-bg .testimnial-slider .slider-item .testimnial-img img{
+        width: 100% !important;
+        margin: 86px auto 40px auto !important;
+    }
+    #testimonial .testimonial-bg .testimnial-slider .slider-item .testimnial-text::after{
+        top: 42%!important;
+        left: -16px!important;
+    }
+    #testimonial .testimonial-bg{
+        padding-top: 50px!important;
+        padding-bottom: 50px!important;
+    }
+    #plan .plan-header img{
+        padding-bottom: 30px!important;
+    }
+    #plan .plan-content .plan-item{
+        margin-bottom: 30px;
+    }
+
+    #plan .plan-content .plan-item:hover {
+        margin-top: 0 !important;
+    }
+    #footer .footer-text{
+        margin-top: 30px !important;
+    }
+    #footer .footer-text p{
+        font-size: 12px!important;
+    }
+}
+
+/* for medium device */
+
+@media (min-width:768px) and (max-width:991px) {
+    .navbar .navbar-brand img {
+        padding-bottom: 0px !important;
+        width: 90% !important;
+    }
+    .navbar-light .navbar-toggler {
+        border-color: #ff5f83;
+        outline: none;
+    }
+
+    .navbar-light .navbar-toggler span {
+        color: #ff5f83;
+    }
+
+    .navbar ul {
+        background: #000;
+        padding-bottom: 15px!important;
+    }
+    #banner .banner-slider .banner-item .banner-head h3{
+        font-size: 40px!important;
+    }
+    #banner .banner-slider .banner-item{
+        padding: 140px 0 !important;
+    }
+    #banner .slick-dots{
+        left: 42%!important;
+        bottom: 10px!important;
+    }
+    #banner .banner-slider .banner-item .banner-btn a,
+    #about .about-btn a,
+    #gallery .gallery-btn a,
+    #blog .blog-slider .slider-item .blog-text .blog-btn a{
+        font-size: 13px!important;
+    }
+    #about{
+        padding-top: 30px!important;
+        padding-bottom: 50px!important;
+    }
+    #about .about-btn {
+        margin-top: 35px!important;
+    }
+
+    #about .about-text p:last-of-type,
+    .navbar-expand-lg .navbar-nav .nav-link::after{
+        display: none!important;
+    }
+
+    #gallery .gallery-header h3,
+    #dj .dj-header h3,
+    #event .event-header h3,
+    #blog .blog-header h3,
+    #plan .plan-header h3,
+    #about .about-header h3{
+        font-size: 16px!important;
+    }
+    #gallery .gallery-item .img-over .overley .icon-1 {
+        margin-left: 36%!important;
+        margin-top: 25%!important;
+    }
+    #gallery .gallery-item .img-over .overley .icon-2{
+        margin-left: 20%!important;
+    }
+    #gallery .gallery-item .img-over .overley .icon-3 {
+        margin-left: 20%!important;
+        margin-top: 13%!important;
+    }
+    #gallery .gallery-item .mb-30{
+        margin-bottom: 15px!important;
+    }
+    #gallery .gallery-item .img-over img{
+        width: 100%!important;
+    }
+    #gallery .gallery-btn{
+        padding-top: 40px!important;
+    }
+    #dj{
+        padding-top: 30px!important;
+    }
+    #dj .slick-center .slider-item {
+        transform: scaleY(1.1) !important;
+    }
+    #dj .dj-slider .slider-item{
+        margin-right: 0px!important;
+        margin-left: 10px!important;
+    }
+    #event .event-content .event-slider .event-slider-item .event-img{
+        margin-top: 23%;
+    }
+    #blog {
+        background: #111111;
+        padding-top: 30px!important;
+        padding-bottom: 50px!important;
+    }
+    #testimonial .testimonial-bg .testimnial-slider .slider-item .testimnial-img img{
+        width: 100% !important;
+        margin: -14px auto 40px auto !important;
+    }
+    #testimonial .testimonial-bg .testimnial-slider .slider-item .testimnial-text::after{
+        top: 42%!important;
+        left: -16px!important;
+    }
+    #testimonial .testimonial-bg{
+        padding-top: 50px!important;
+        padding-bottom: 50px!important;
+    }
+    #plan .plan-header img{
+        padding-bottom: 30px!important;
+    }
+    #plan .plan-content .plan-item{
+        margin-bottom: 30px;
+    }
+    #plan .plan-content .plan-item:hover {
+        margin-top: -10px!important;
+    }
+
+    #footer .footer-text p{
+        font-size: 14px!important;
+    }
+}
